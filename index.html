@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive List Application</title>
+    <style>
+        body {
+            font-family: monospace;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            border: 2px solid #333;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .ascii-art {
+            font-size: 12px;
+            line-height: 1;
+            white-space: pre;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ascii-art">
+            ********************************************************************************<br>
+            *                                                                              *<br>
+            *                                  __ __ __                                    *<br>
+            *                                 |  |  |  |                                   *<br>
+            *                                 |  |  |  |                                   *<br>
+            *                                 |__|__|__|                                   *<br>
+            *                           _____          _____                              *<br>
+            *                          |  __ \        |  __ \                             *<br>
+            *                          | |  | |       | |  | |                            *<br>
+            *                          | |  | |       | |  | |                            *<br>
+            *                          | |__| |       | |__| |                            *<br>
+            *                          |_____/        |_____/                             *<br>
+            *                                                                              *<br>
+            *          _   _                  _   _              _______  _______          *<br>
+            *         | | | |                | | | |            |  _____||  _____|         *<br>
+            *         | |_| | __ _ _ __ ___  | |_| |__   ___    | |_____ | |_____          *<br>
+            *         |  _  |/ _` | '_ ` _ \ |  _  |  \ / _ \   |  _____||  _____|         *<br>
+            *         | | | | (_| | | | | | || | | | | | (_) |  | |_____ | |_____          *<br>
+            *         |_| |_|\__,_|_| |_| |_||_| |_| |_|\___/   |_______||_______|         *<br>
+            *                                                                              *<br>
+            *                            Welcome to Drive List!                            *<br>
+            *                                                                              *<br>
+            ********************************************************************************
+        </div>
+        <p>Welcome to the Drive List Application!</p>
+        <p>This application allows you to remotely list the contents of your Google Drive.</p>
+        <p>With Drive List, you can easily access and manage your files from anywhere.</p>
+        <p>Features:</p>
+        <ul style="text-align: left; display: inline-block;">
+            <li>List all files and folders in your Google Drive</li>
+            <li>Search for specific files or folders</li>
+            <li>View detailed information about each file</li>
+        </ul>
+        <p>To get started, please authorize the application to access your Google Drive.</p>
+        <p>Google API Application Domain:<br>
+        This application requires authorization to access your Google Drive. For your protection and that of your users, Google only allows OAuth applications to use authorized domains. The information provided below will be displayed on the consent screen for your users to review.</p>
+        <a href="#" class="button">Authorize Drive List</a>
+        <p style="margin-top: 20px;">Powered by Cloudflare Workers</p>
+        <p>© 2024 Drive List Application</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+    </div>
+</body>
+</html>
